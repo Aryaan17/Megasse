@@ -1,0 +1,97 @@
+.Images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h4{
+    color: black;
+}
+body{
+    background-color: red;
+}
+.img{
+    padding: 3%;
+    position: relative;
+}
+.img2{
+    padding: 3%;
+    position: relative;
+}
+.img3{
+    padding: 3%;
+    position: relative;
+}
+.img p{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    text-align: center;
+    opacity: 0;
+}
+.img2 p{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    opacity: 0;
+}
+.img3 p{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    opacity: 0;
+}
+.finale{
+    text-align: center;
+}
+.finale a:link{
+    color: black;
+}
+.finale a:visited{
+    color: black;
+}
+.img:hover img{
+    opacity:0.3;
+}
+.img:hover p{
+    opacity:1;
+}
+.img2:hover img{
+    opacity:0.3;
+}
+.img2:hover p{
+    opacity:1;
+}
+.img3:hover img{
+    opacity:0.3;
+}
+.img3:hover p{
+    opacity:1;
+    font-style: bold;
+}
+.img3:hover body{
+    background-color: red;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: solid;
+    border-width: 20px;
+    padding: 2%;
+    font-size: 40px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+}
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+}
